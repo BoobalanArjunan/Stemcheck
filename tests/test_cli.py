@@ -52,11 +52,13 @@ def test_score_prints_the_table_and_writes_csvs(song, capsys):
     assert main(["score", str(song / "ref"), str(song / "est"), "--out", str(out), "--window", "4"]) == 0
     text = capsys.readouterr().out
     assert "numbers only" in text and "vocals" in text and "from drums" in text
-    rows = list(csv.DictReader(open(out / "bleed_matrix.csv")))
+    with open(out / "bleed_matrix.csv", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
     v = next(r for r in rows if r["stem"] == "vocals" and r["source"] == "drums")
     assert v["detected"] == "True" and abs(float(v["vs_source_db"]) + 20) < 0.5
     assert all(r["detected"] == "False" for r in rows if r["stem"] != "vocals")
-    tl = list(csv.DictReader(open(out / "timeline.csv")))
+    with open(out / "timeline.csv", encoding="utf-8") as f:
+        tl = list(csv.DictReader(f))
     assert {r["stem"] for r in tl} == {"vocals", "drums", "other", "bass"} and len(tl) >= 4
     assert (out / "stemcheck_score.json").exists() and (out / "stemcheck_score.txt").exists()
 
