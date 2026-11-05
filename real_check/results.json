@@ -12,34 +12,6 @@
       [
         -10.25,
         true
-      ],
-      [
-        -10.03,
-        true
-      ],
-      [
-        -10.02,
-        true
-      ],
-      [
-        -10.05,
-        true
-      ],
-      [
-        -10.02,
-        true
-      ],
-      [
-        -10.01,
-        true
-      ],
-      [
-        -10.1,
-        true
-      ],
-      [
-        -10.09,
-        true
       ]
     ],
     "-10.0|artifacts": [
@@ -53,34 +25,6 @@
       ],
       [
         -10.22,
-        true
-      ],
-      [
-        -10.03,
-        true
-      ],
-      [
-        -10.0,
-        true
-      ],
-      [
-        -10.05,
-        true
-      ],
-      [
-        -10.02,
-        true
-      ],
-      [
-        -10.02,
-        true
-      ],
-      [
-        -10.1,
-        true
-      ],
-      [
-        -10.06,
         true
       ]
     ],
@@ -96,34 +40,6 @@
       [
         -20.25,
         true
-      ],
-      [
-        -20.03,
-        true
-      ],
-      [
-        -20.02,
-        true
-      ],
-      [
-        -20.05,
-        true
-      ],
-      [
-        -20.02,
-        true
-      ],
-      [
-        -20.01,
-        true
-      ],
-      [
-        -20.1,
-        true
-      ],
-      [
-        -20.09,
-        true
       ]
     ],
     "-20.0|artifacts": [
@@ -137,34 +53,6 @@
       ],
       [
         -20.17,
-        true
-      ],
-      [
-        -20.03,
-        true
-      ],
-      [
-        -19.97,
-        true
-      ],
-      [
-        -20.07,
-        true
-      ],
-      [
-        -20.02,
-        true
-      ],
-      [
-        -20.03,
-        true
-      ],
-      [
-        -20.1,
-        true
-      ],
-      [
-        -20.01,
         true
       ]
     ],
@@ -180,34 +68,6 @@
       [
         -30.25,
         true
-      ],
-      [
-        -30.03,
-        true
-      ],
-      [
-        -30.02,
-        true
-      ],
-      [
-        -30.05,
-        true
-      ],
-      [
-        -30.02,
-        true
-      ],
-      [
-        -30.01,
-        true
-      ],
-      [
-        -30.1,
-        true
-      ],
-      [
-        -30.09,
-        true
       ]
     ],
     "-30.0|artifacts": [
@@ -221,34 +81,6 @@
       ],
       [
         -29.97,
-        true
-      ],
-      [
-        -30.02,
-        true
-      ],
-      [
-        -29.83,
-        true
-      ],
-      [
-        -30.14,
-        true
-      ],
-      [
-        -30.01,
-        true
-      ],
-      [
-        -30.07,
-        true
-      ],
-      [
-        -30.1,
-        true
-      ],
-      [
-        -29.76,
         true
       ]
     ],
@@ -264,34 +96,6 @@
       [
         -40.25,
         true
-      ],
-      [
-        -40.03,
-        true
-      ],
-      [
-        -40.02,
-        true
-      ],
-      [
-        -40.05,
-        true
-      ],
-      [
-        -40.02,
-        true
-      ],
-      [
-        -40.01,
-        true
-      ],
-      [
-        -40.1,
-        true
-      ],
-      [
-        -40.09,
-        true
       ]
     ],
     "-40.0|artifacts": [
@@ -306,59 +110,10 @@
       [
         -39.21,
         false
-      ],
-      [
-        -39.99,
-        true
-      ],
-      [
-        -39.17,
-        false
-      ],
-      [
-        -40.51,
-        false
-      ],
-      [
-        -39.96,
-        false
-      ],
-      [
-        -40.13,
-        true
-      ],
-      [
-        -40.1,
-        true
-      ],
-      [
-        -38.56,
-        false
       ]
     ]
   },
   "false_detected": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
     false,
     false,
     false,
@@ -387,48 +142,6 @@
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    true,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    true,
-    false,
-    false,
-    false,
-    true,
-    false,
-    true,
-    false,
     false
   ],
   "checks": [
@@ -449,52 +162,117 @@
       "PASS",
       -67.45,
       []
-    ],
-    [
-      "ANiMAL - Rockshow",
-      "PASS",
-      -67.28,
-      []
-    ],
-    [
-      "Actions - Devil's Words",
-      "PASS",
-      -70.4,
-      []
-    ],
-    [
-      "Actions - One Minute Smile",
-      "PASS",
-      -70.16,
-      []
-    ],
-    [
-      "Actions - South Of The Water",
-      "PASS",
-      -70.25,
-      []
-    ],
-    [
-      "Aimee Norwich - Child",
-      "PASS",
-      -70.71,
-      []
-    ],
-    [
-      "Alexander Ross - Goodbye Bolero",
-      "WARN",
-      -68.62,
-      [
-        "silent:vocals"
-      ]
-    ],
-    [
-      "Alexander Ross - Velvet Curtain",
-      "PASS",
-      -60.35,
-      []
     ]
   ],
-  "separated": [],
+  "separated": [
+    {
+      "song": "A Classic Education - NightOwl",
+      "stem": "bass",
+      "sdr_like_db": 20.28,
+      "total_leak_db": -24.65,
+      "hint_max_excess_db": -19.959,
+      "check_verdict": "PASS",
+      "sum_residual_db": -34.02
+    },
+    {
+      "song": "A Classic Education - NightOwl",
+      "stem": "drums",
+      "sdr_like_db": 2.4,
+      "total_leak_db": -17.31,
+      "hint_max_excess_db": -16.44,
+      "check_verdict": "PASS",
+      "sum_residual_db": -34.02
+    },
+    {
+      "song": "A Classic Education - NightOwl",
+      "stem": "other",
+      "sdr_like_db": 9.44,
+      "total_leak_db": -13.75,
+      "hint_max_excess_db": -11.545,
+      "check_verdict": "PASS",
+      "sum_residual_db": -34.02
+    },
+    {
+      "song": "A Classic Education - NightOwl",
+      "stem": "vocals",
+      "sdr_like_db": 4.33,
+      "total_leak_db": -8.88,
+      "hint_max_excess_db": -11.545,
+      "check_verdict": "PASS",
+      "sum_residual_db": -34.02
+    },
+    {
+      "song": "ANiMAL - Clinic A",
+      "stem": "bass",
+      "sdr_like_db": 14.76,
+      "total_leak_db": -24.09,
+      "hint_max_excess_db": -19.679,
+      "check_verdict": "WARN",
+      "sum_residual_db": -21.35
+    },
+    {
+      "song": "ANiMAL - Clinic A",
+      "stem": "drums",
+      "sdr_like_db": 8.57,
+      "total_leak_db": -20.12,
+      "hint_max_excess_db": -21.714,
+      "check_verdict": "WARN",
+      "sum_residual_db": -21.35
+    },
+    {
+      "song": "ANiMAL - Clinic A",
+      "stem": "other",
+      "sdr_like_db": 5.17,
+      "total_leak_db": -11.63,
+      "hint_max_excess_db": -17.616,
+      "check_verdict": "WARN",
+      "sum_residual_db": -21.35
+    },
+    {
+      "song": "ANiMAL - Clinic A",
+      "stem": "vocals",
+      "sdr_like_db": 7.96,
+      "total_leak_db": -15.47,
+      "hint_max_excess_db": -17.616,
+      "check_verdict": "WARN",
+      "sum_residual_db": -21.35
+    },
+    {
+      "song": "ANiMAL - Easy Tiger",
+      "stem": "bass",
+      "sdr_like_db": 12.12,
+      "total_leak_db": -21.46,
+      "hint_max_excess_db": -30.679,
+      "check_verdict": "PASS",
+      "sum_residual_db": -30.23
+    },
+    {
+      "song": "ANiMAL - Easy Tiger",
+      "stem": "drums",
+      "sdr_like_db": 11.36,
+      "total_leak_db": -18.99,
+      "hint_max_excess_db": -33.816,
+      "check_verdict": "PASS",
+      "sum_residual_db": -30.23
+    },
+    {
+      "song": "ANiMAL - Easy Tiger",
+      "stem": "other",
+      "sdr_like_db": 5.18,
+      "total_leak_db": -15.81,
+      "hint_max_excess_db": -21.906,
+      "check_verdict": "PASS",
+      "sum_residual_db": -30.23
+    },
+    {
+      "song": "ANiMAL - Easy Tiger",
+      "stem": "vocals",
+      "sdr_like_db": 12.98,
+      "total_leak_db": -20.36,
+      "hint_max_excess_db": -21.906,
+      "check_verdict": "PASS",
+      "sum_residual_db": -30.23
+    }
+  ],
   "errors": []
 }
