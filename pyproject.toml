@@ -9,8 +9,12 @@ description = "Check separated music stems: do they add up to the mix, are any s
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Boobalan Arjunan" }]
-maintainers = [{ name = "Boobalan Arjunan" }]
+authors = [
+  { name = "Boobalan Arjunan", email = "boobalan_arjunan@composermind.com" },
+]
+maintainers = [
+  { name = "Boobalan Arjunan", email = "boobalan_arjunan@composermind.com" },
+]
 keywords = ["audio", "music", "source-separation", "stems", "bleed", "interference", "evaluation", "quality-check", "machine-learning"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -26,9 +30,9 @@ dependencies = ["numpy", "scipy", "soundfile"]
 dev = ["pytest>=7"]
 
 [project.urls]
-Homepage = "https://github.com/BoobalanArjunan/stemcheck"
-Issues = "https://github.com/BoobalanArjunan/stemcheck/issues"
-Source = "https://github.com/BoobalanArjunan/stemcheck"
+Homepage = "https://github.com/BoobalanArjunan/Stemcheck"
+Issues = "https://github.com/BoobalanArjunan/Stemcheck/issues"
+Source = "https://github.com/BoobalanArjunan/Stemcheck"
 
 [project.scripts]
 stemcheck = "stemcheck.cli:main"
@@ -38,3 +42,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]
