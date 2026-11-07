@@ -4,7 +4,7 @@ Check separated music stems, and measure how much one instrument leaks into anot
 
 You split a song into vocals, drums, bass and other (with Demucs or any other separator). Two questions follow. **Is the result sane?** (Do the stems add back up to the song? Is one silent, clipped or a copy of another?) And, if you have the true stems, **how much leaks where?** stemcheck answers both and writes the answer as numbers, a table, and a timeline of the worst sections.
 
-> **Status: alpha (0.1.0a1).** Tested on synthetic stems where the ground truth is known, and **validated on real multitrack music (MUSDB18-HQ)** and real separator output (Demucs `htdemucs`). See the benchmark results below and in [docs/REAL_DATA_CHECK.md](docs/REAL_DATA_CHECK.md). It is not a replacement for [museval](https://github.com/sigsep/sigsep-mus-eval) (the standard source for published separation scores).
+> **Status: alpha (0.1.0).** Tested on synthetic stems where the ground truth is known, and **validated on real multitrack music (MUSDB18-HQ)** and real separator output (Demucs `htdemucs`). See the benchmark results below and in [docs/REAL_DATA_CHECK.md](docs/REAL_DATA_CHECK.md). It is not a replacement for [museval](https://github.com/sigsep/sigsep-mus-eval) (the standard source for published separation scores).
 
 ## Install
 
